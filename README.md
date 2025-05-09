@@ -31,6 +31,11 @@ Binary values are converted to decimal, forming histograms.
 Feature vectors are flattened and saved to a CSV file.
 Labels are extracted from filenames in the format <label>_<rest>.ogg/m4a
 
+**Models Used**
+Logistic Regression
+Support Vector Machine (SVM)
+Random Forest Classifier
+Deep Neural Network (using TensorFlow Keras)
 
 **Notes**
 The current implementation assumes that the label is the prefix of the filename, separated by an underscore (_).
