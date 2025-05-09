@@ -12,6 +12,10 @@ Outputs a labeled dataset suitable for downstream ML tasks
 
 **Dataset:** Cough audio for asthma, heart failure, covid and healthy patients, comprising of ogg and m4a files
 
+**Dependencies** : 
+
+    pip install -r requirements.txt
+
 **Working:**
 > Preprocessing:
 Audio files are trimmed to even lengths and downsampled as needed.
